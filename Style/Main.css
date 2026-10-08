@@ -1,0 +1,79 @@
+.clsBody{
+    background-color: white;
+    display: flex; justify-content: center; align-items: center;
+} 
+.clsBodyDiv{
+    background-color: white;
+    border: 1px solid #CAE5FF;
+    display: flex; justify-content: center; align-items: center;
+
+}
+.clsBodyTable{
+    border: 0px;
+    width: 100%;
+    display: flex; justify-content: center; align-items: center;
+}
+.clsOrderList{
+    border: 1px solid #CAE5FF;
+}
+
+.clsTitle{
+    font-family: Sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    background-color: #5B6E80;
+}
+
+.clsLabel{
+    color: #002B82;
+    font-family: Sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.clsText{
+    color: #004d99;
+    font-family: Sans-serif;
+    font-size: 15px;
+    
+}
+
+.clsSelect{
+    color: #004d99;
+    font-family: Sans-serif;
+    font-size: 15px;
+    border: 1px solid #004d99;
+}
+
+.clsTextBox{
+    color: #004d99;
+    font-family: Sans-serif;
+    font-size: 15px;
+    border: 1px solid #004d99;
+}
+
+.clsDate{
+    color: #004d99;
+    font-family: Sans-serif;
+    font-size: 15px;
+    border: 1px solid #004d99;
+}
+
+.clsButton{
+    color: #004d99;
+    background-color: white;
+    font-family: Sans-serif;
+    font-size: 20px;
+    border: 1px solid #004d99;
+    font-weight: bold;
+}
+
+.clsButton:hover{
+    color: white;
+    background-color: #004d99;
+    font-family: Sans-serif;
+    font-size: 20px;
+    border: 1px solid #004d99;
+    font-weight: bold;
+}

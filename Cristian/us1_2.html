@@ -5,55 +5,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Migraciones</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Style/Main.css" />
 </head>
-<body>
-    <div>
-        <h1 align="center">Datos del Beneficiario</h1>
-        <p align="center">Seleccionhe el trámite, la sede, la fecha y el horario.</p>
+<body class="clsBody">
+    <div class="clsBodyDiv">
+        <table class="clsBodyTable">
+            <tr>
+                <td class="clsTitle" colspan="2">
+                    Migraciones
+                </td>
+            </tr>
 
-        <h2 align="center">Trámite</h2>
-        <p align="center">
-          <select align="center">
-              <option value="1">Pasaporte Electrónico</option>
-          </select>
-        </p>
-        <br/>
-        
-        <h2 align="center">Sede</h2>
-        <p align="center">
-          <select align="center">
-              <option value="1">Lima - Breña</option>
-          </select>
-        </p>
-        <br/>
+            <tr>
+                <td class="clsLabel" colspan="2">
+                    Datos del Beneficiario
+                </td>
+            </tr>
 
-        <h2 align="center">Seleccione Fecha y Hora</h2>
-        <p align="center">
-          <select align="center">
-              <option value="1">Lima - Breña</option>
-          </select>
-        </p>
-        <br/>
+            <tr>
+                <td class="clsText">
+                    N° de DNI
+                </td>
+                <td>
+                    <input type="text" class="clsTextBox" placeholder="Ingrese su DNI">
+                </td>
+            </tr>
 
-        <h2 align="center">Horarios disponibles</h2>
-        <ol align="center">
-          <li><input type="radio" name="hora" value="1"> 09:00 AM</li>
-          <li><input type="radio" name="hora" value="2"> 09:30 AM</li>
-          <li><input type="radio" name="hora" value="3"> 10:00 AM</li>
-          <li><input type="radio" name="hora" value="3"> 10:30 AM</li>
-          <li><input type="radio" name="hora" value="3"> 11:00 AM</li>
-          <li><input type="radio" name="hora" value="3"> 11:30 AM</li>
-          <li><input type="radio" name="hora" value="3"> 12:00 AM</li>
-          <li><input type="radio" name="hora" value="3"> 12:30 AM</li>
-          <li><input type="radio" name="hora" value="3"> 01:00 PM</li>
-          <li><input type="radio" name="hora" value="3"> 01:30 PM</li>
-          <li><input type="radio" name="hora" value="3"> 02:00 PM</li>
-          <li><input type="radio" name="hora" value="3"> 02:30 PM</li>
-        </ol>
-        <br/><br/>
-        <p align="center">
-          <button type="button" onclick="window.location.href='us1_2.html'">Continuar</button>
-        </p>
+            <tr>
+                <td class="clsLabel" colspan="2">
+                    Datos del Beneficiario
+                </td>
+            </tr>
+
+            <tr>
+                <td class="clsText">
+                    N° de DNI
+                </td>
+                <td>
+                    <input type="text" class="clsTextBox" placeholder="Ingrese su DNI">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="clsText">
+                    Nombres
+                </td>
+                <td>
+                    <input type="text" class="clsTextBox" placeholder="Ingrese sus Nombres">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="clsText">
+                    Apellidos
+                </td>
+                <td>
+                    <input type="text" class="clsTextBox" placeholder="Ingrese sus Apellidos">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="clsText">
+                    Correo Electrónico
+                </td>
+                <td>
+                    <input type="text" class="clsTextBox" placeholder="Ingrese su Correo Electrónico">
+                    <br/><br/>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="clsLabel" colspan="2">
+                    Datos del Beneficiario
+                </td>
+            </tr>
+
+            <tr>
+                <td class="clsText">
+                    N° de recibo
+                </td>
+                <td>
+                    <input type="text" class="clsTextBox" placeholder="Ingrese su N° de recibo">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="clsText">
+                    Fecha de pago
+                </td>
+                <td>
+                    <input type="date" class="clsTextBox" placeholder="Ingrese la fecha de pago">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="clsText">
+                    Banco
+                </td>
+                <td>
+                    <select class="clsSelect" colspan="2">
+                        <option value="1">Banco de la Nación</option>
+                        <option value="2">Banco de Crédito del Perú</option>
+                        <option value="3">Interbank</option>
+                        <option value="4">Scotiabank</option>
+                        <option value="5">BBVA</option>
+                    </select>
+                    <br/><br/><br/>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="clsLabel" colspan="2">
+                    Validar Información
+                </td>
+            </tr>
+
+            <tr>
+                <td class="clsText" colspan="2">
+                    Ingrese el código de verificación que aparece en la imagen.<br/><br/>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="clsCaptcha">
+                    7F3kT
+                </td>
+                <td>
+                    <input type="date" class="clsTextBox" placeholder="Ingrese el código de verificación">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="button" onclick="window.location.href='us1_3.html'"
+                          class="clsButton">Validar</button><br/><br/>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center" class="clsText">
+                    Si el código no es legible, puede generar uno nuevo.<br/>
+                    <a href="us1_2.html" class="clsLink">Generar nuevo código</a><br/><br/>
+                </td>
+            </tr>
+
+          </table>
 
     </div>
     <br/>

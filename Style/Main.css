@@ -1,17 +1,20 @@
 .clsBody{
     background-color: white;
     display: flex; justify-content: center; align-items: center;
+    border-radius: 3px 3px 3px 3px;
 } 
 .clsBodyDiv{
     background-color: white;
     border: 1px solid #CAE5FF;
     display: flex; justify-content: center; align-items: center;
+    border-radius: 3px 3px 3px 3px;
 
 }
 .clsBodyTable{
     border: 0px;
     width: 100%;
     display: flex; justify-content: center; align-items: center;
+    border-radius: 3px 3px 3px 3px;
 }
 .clsOrderList{
     border: 1px solid #CAE5FF;
@@ -20,7 +23,7 @@
 .clsTitle{
     font-family: Sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 27px;
     color: white;
     background-color: #5B6E80;
 }
@@ -36,7 +39,6 @@
     color: #004d99;
     font-family: Sans-serif;
     font-size: 15px;
-    
 }
 
 .clsSelect{
@@ -44,6 +46,7 @@
     font-family: Sans-serif;
     font-size: 15px;
     border: 1px solid #004d99;
+    border-radius: 3px 3px 3px 3px;
 }
 
 .clsTextBox{
@@ -51,6 +54,7 @@
     font-family: Sans-serif;
     font-size: 15px;
     border: 1px solid #004d99;
+    border-radius: 3px 3px 3px 3px;
 }
 
 .clsDate{
@@ -58,6 +62,7 @@
     font-family: Sans-serif;
     font-size: 15px;
     border: 1px solid #004d99;
+    border-radius: 3px 3px 3px 3px;
 }
 
 .clsButton{
@@ -67,6 +72,7 @@
     font-size: 20px;
     border: 1px solid #004d99;
     font-weight: bold;
+    border-radius: 3px 3px 3px 3px;
 }
 
 .clsButton:hover{
@@ -76,4 +82,22 @@
     font-size: 20px;
     border: 1px solid #004d99;
     font-weight: bold;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.clsCaptcha{
+    color: #002B66;
+    font-family: Sans-serif;
+    font-size: 20px;
+    background-color: #E8EEF5;
+    font-weight: bold;
+    border: 10px solid #E8EEF5;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.clsLink{
+    color: #002B82;
+    font-family: Sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
 }

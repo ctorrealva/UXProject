@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beneficiario y Pago | Migraciones (Demo)</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main class="marco">
+    <header class="encabezado">Interfaz Totalmente Responsiva</header>
+    <p class="subtitulo">La plataforma se ajusta dinámicamente a cualquier tamaño de pantalla táctil.</p>
+    <section class="paso">
+      <div class="paso-titulo"><span class="paso-numero">2</span><div><h1>DATOS DEL BENEFICIARIO Y DATOS DEL PAGO</h1></div></div>
+      <div class="panel">
+        <div class="barra"><span>MIGRACIONES</span><span class="usuario" aria-hidden="true">●</span></div>
+        <div class="contenido">
+          <form action="validar.html">
+            <h2>Datos del Beneficiario</h2>
+          <div class="campo"><label for="dni">N° de DNI</label><input id="dni" name="dni" type="text" value="12345678" ></div>
+          <div class="campo"><label for="nombres">Nombres</label><input id="nombres" name="nombres" type="text" value="Valeria Fernanda" ></div>
+          <div class="campo"><label for="apellidos">Apellidos</label><input id="apellidos" name="apellidos" type="text" value="Gomez García"></div>
+          <div class="campo"><label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" value="Valegomez@gmail.com"></div>
+            <div class="grupo-pago"><h3>Datos del Pago</h3>
+          <div class="campo"><label for="recibo">N° de recibo</label><input id="recibo" name="recibo" type="text" value="987654321" ></div>
+          <div class="campo"><label for="fecha">Fecha de pago</label><input id="fecha" name="fecha" type="date" value="2026-10-08" ></div>
+          <div class="campo"><label for="banco">Banco</label><input id="banco" name="banco" type="text" value="Banco de la Nación"></div>
+              <button class="boton" type="submit">Continuar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <nav class="navegacion"><a href="index.html">← Volver</a></nav>
+  </main>
+</body>
+</html>
